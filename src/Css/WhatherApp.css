@@ -1,0 +1,208 @@
+
+
+.form-check-label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sarchInput{
+    border-radius: 40px !important;
+    background-color: #fff !important;
+    border: none !important;
+    box-shadow: 0px 4px 8px #9d9d9d ;
+}
+.dark-mode .sarchInput {
+    background-color: #444444  !important;
+    color: #fff;
+    box-shadow: 0px 4px 8px #9d9d9d ;
+
+}
+.whatherForecastDiv{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    color: #fff
+;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.hoursMainDiv{
+    background-color: #000;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.searchBtn{
+    background-color: #000 !important;
+    border: none !important;
+}
+.currentLocation{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: #4CBB17;
+    border: none;
+    color: #fff;
+    border-radius: 40px;
+    padding: 10px;
+}
+.whatherRow{
+    align-items: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.timeRow{
+    padding: 20px 0px;
+}
+.timeCard{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 6px 6px 12px #000;
+    height: 330px;
+    
+}
+.athensTitle{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+.timeTitle{
+    font-size: 96px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+.dateDiv{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+}
+.diageryDiv{
+    font-size: 53px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(to right, #000, #474747);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.digreeSubtitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+.dark-mode .digreeSubtitle{
+    color: #fff;
+}
+.digreeSubtitle span{
+    font-weight: 700;
+}
+img{
+    width: 100%;
+}
+.monsoonTitle{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+.dark-mode .monsoonTitle{
+    color: #fff;
+}
+.speedMainDiv{
+    display: flex
+;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .dark-mode .timeCard {
+    background-color: #333;
+    color: white;
+  }
+  .dark-mode.athensTitle{
+    color: #fff;
+    
+  }
+  .dark-mode .searchBtn {
+    background-color: #555;
+    color: white;
+  }
+  .dark-mode .diageryDiv{
+    background: linear-gradient(to right, #fff, #474747);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    
+  }
+  .dark-mode .dateDiv{
+    color: #fff;
+  }
+  .dark-mode .timeTitle{
+    color: #fff;
+  }
+  .dark-mode .athensTitle{
+    color: #fff;
+  }
+  .dark-mode.dateDiv{
+    color: #fff;
+  }
+  .dark-mode .currentLocation {
+    background-color: #777;
+    color: white;
+  }
+  .dark-mode .form-check-label{
+    color: #fff;
+  }
+  
+
+  /* ///// responsive ===>  */
+
+
+  /* // small leptop screen  */
+@media only screen and (max-width:1024px) and (min-width:768px) {
+  
+    .timeTitle {
+        font-size: 70px;
+    }
+    .diageryDiv {
+        font-size: 44px;
+    }
+    .digreeSubtitle{
+        font-size: 14px;
+    }
+ }
+   /* // mobile  screen  */
+@media only screen and (max-width:427px) and (min-width:0px) {
+  
+    .timeTitle {
+        font-size: 64px;
+    }
+    .timeCard{
+        height: auto;
+        margin: 10px 0px;
+    }
+    .searchCol{
+        padding: 20px;
+        display: flex
+    ;
+        justify-content: center;
+    }
+   
+ }
